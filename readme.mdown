@@ -9,3 +9,7 @@ To learn more about BOINC:
 * [UC Berkeley's BOINC wiki](http://boinc.berkeley.edu/wiki/Main_Page "BOINC wiki at UC Berkeley")
 * [Berkeley Open Infrastructure for Network Computing](http://en.wikipedia.org/wiki/Berkeley_Open_Infrastructure_for_Network_Computing "Berkeley Open Infrastructure for Network Computing at Wikipedia") at Wikipedia
 * [Unofficial BOINC Wiki](http://www.boinc-wiki.info/ "Unofficial BOINC Wiki")
+
+
+Credit's
+i would like to thank the real creataor of this addon brotherbard for making this and for boneskull for is updates to this that i have added to this im not here to take credit for other peroples work this is why i have made this add to the readme file
