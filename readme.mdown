@@ -12,4 +12,4 @@ To learn more about BOINC:
 
 
 Credit's
-i would like to thank the real creataor of this addon brotherbard for making this and for boneskull for is updates to this that i have added to this im not here to take credit for other peroples work this is why i have made this add to the readme file
+i would like to thank the real creataor of this addon brotherbard for making this and for boneskull for is updates to this that i have added to this im not here to take credit for other peoples work this is why i have made this add to the readme file
