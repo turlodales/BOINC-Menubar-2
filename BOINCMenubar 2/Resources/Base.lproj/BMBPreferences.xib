@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <development version="10000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="BMBPreferenceWindowController">
+            <connections>
+                <outlet property="prefToolbar" destination="3" id="24"/>
+                <outlet property="window" destination="1" id="25"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="&lt;preferences&gt;" allowsToolTipsWhenApplicationIsInactive="NO" visibleAtLaunch="NO" animationBehavior="default" id="1">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="898" y="1092" width="660" height="300"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <value key="minSize" type="size" width="660" height="200"/>
+            <value key="maxSize" type="size" width="660" height="1200"/>
+            <view key="contentView" id="2">
+                <rect key="frame" x="0.0" y="0.0" width="660" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="55B76331-82C4-4CF8-8365-62A270CAB94B" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="iconAndLabel" sizeMode="regular" id="3">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="0123B02C-F222-4B46-81BD-5E07EB961306" label="General" paletteLabel="General Preference" tag="-1" image="NSPreferencesGeneral" id="11">
+                        <connections>
+                            <action selector="setPrefViewForToolbarItem:" target="-2" id="18"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="0217F3C4-2E2F-4372-93CB-DCDD08D49CA9" label="Appearance" paletteLabel="Appearance Preference" tag="-1" image="Appearance" id="28">
+                        <connections>
+                            <action selector="setPrefViewForToolbarItem:" target="-2" id="29"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="049F1401-FCE5-4E2C-8D47-0CED4345FFF4" label="Updates" paletteLabel="Software Updates" tag="-1" image="Updates" id="30">
+                        <connections>
+                            <action selector="setPrefViewForToolbarItem:" target="-2" id="31"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="31553362-BF98-4EE7-A7C7-EC88B07BDCE0" label="Hosts" paletteLabel="Hosts Preference" tag="-1" image="NSComputer" id="13">
+                        <connections>
+                            <action selector="setPrefViewForToolbarItem:" target="-2" id="20"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="14"/>
+                    <toolbarItem implicitItemIdentifier="E6580D9D-AF02-410A-922C-4290A9262864" label="BOINC" paletteLabel="BOINC Preference" tag="-1" image="BOINCMgr" id="15">
+                        <connections>
+                            <action selector="setPrefViewForToolbarItem:" target="-2" id="21"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="7ACA3E00-FC94-46C9-A495-B372ADEFF301" label="Network" paletteLabel="Network Preference" tag="-1" image="NSNetwork" id="16">
+                        <connections>
+                            <action selector="setPrefViewForToolbarItem:" target="-2" id="22"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="37A96472-678C-4202-A68D-5A3A2667A11E" label="Projects" paletteLabel="Projects Preference" tag="-1" image="Projects" id="17">
+                        <connections>
+                            <action selector="setPrefViewForToolbarItem:" target="-2" id="23"/>
+                        </connections>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="11"/>
+                    <toolbarItem reference="28"/>
+                    <toolbarItem reference="30"/>
+                    <toolbarItem reference="13"/>
+                    <toolbarItem reference="14"/>
+                    <toolbarItem reference="15"/>
+                    <toolbarItem reference="16"/>
+                    <toolbarItem reference="17"/>
+                </defaultToolbarItems>
+                <connections>
+                    <outlet property="delegate" destination="-2" id="27"/>
+                </connections>
+            </toolbar>
+            <connections>
+                <outlet property="delegate" destination="-2" id="26"/>
+            </connections>
+        </window>
+    </objects>
+    <resources>
+        <image name="Appearance" width="128" height="128"/>
+        <image name="BOINCMgr" width="128" height="128"/>
+        <image name="NSComputer" width="32" height="32"/>
+        <image name="NSNetwork" width="32" height="32"/>
+        <image name="NSPreferencesGeneral" width="32" height="32"/>
+        <image name="Projects" width="128" height="128"/>
+        <image name="Updates" width="32" height="32"/>
+    </resources>
+</document>

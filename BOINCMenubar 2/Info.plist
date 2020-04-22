@@ -11,7 +11,7 @@
 	<key>CFBundleIconFile</key>
 	<string>BOINCMenubarIcon.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.BrotherBard.BOINCMenubar2</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -23,7 +23,7 @@
 	<key>CFBundleSignature</key>
 	<string>BMB2</string>
 	<key>CFBundleVersion</key>
-	<string>101</string>
+	<string>10.14</string>
 	<key>FRFeedbackReporter.targetURL</key>
 	<string>http://feedbackreporter.brotherbard.com/submitfeedback.php?project=%@</string>
 	<key>LSApplicationCategoryType</key>

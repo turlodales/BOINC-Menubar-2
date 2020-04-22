@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <development version="10000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="BMBStatusMenuController">
+            <connections>
+                <outlet property="aboutMenuItem" destination="11" id="50"/>
+                <outlet property="helpMenuItem" destination="12" id="51"/>
+                <outlet property="hostSeperatorMenuItem" destination="55" id="56"/>
+                <outlet property="joinNewProjectMenuItem" destination="14" id="53"/>
+                <outlet property="preferencesMenuItem" destination="13" id="52"/>
+                <outlet property="quitMenuItem" destination="15" id="54"/>
+                <outlet property="statusMenu" destination="1" id="39"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <menu autoenablesItems="NO" id="1">
+            <items>
+                <menuItem title="About BOINCMenubar 2" tag="3" id="11">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="openAboutWindow:" target="-1" id="29"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="BOINC Help" id="12">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" id="16">
+                        <items>
+                            <menuItem title="Help…" id="17">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="20"/>
+                            <menuItem title="BOINC Website" id="18">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="openBoincSite:" target="-1" id="32"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="BOINCMenubar 2 Website" id="19">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="openBoincMenubarSite:" target="-1" id="49"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Send Feedback..." id="57">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="openFeedbackEMail:" target="-1" id="63"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Check for Updates…" id="65">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="checkForUpdates:" target="67" id="68"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Preferences…" id="13">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="openPreferencesWindow:" target="-1" id="35"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Join New Project…" id="14">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="joinNewProject:" target="-1" id="36"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit BOINCMenubar 2" id="15">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="terminate:" target="-1" id="37"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" hidden="YES" id="55"/>
+            </items>
+            <connections>
+                <outlet property="delegate" destination="-2" id="38"/>
+            </connections>
+        </menu>
+        <customObject id="67" customClass="SUUpdater"/>
+    </objects>
+</document>

@@ -51,7 +51,7 @@
 		D8342FAB10C95CD7009A00F8 /* release-notes.html in Resources */ = {isa = PBXBuildFile; fileRef = D8342FAA10C95CD7009A00F8 /* release-notes.html */; };
 		D8342FCA10C96168009A00F8 /* releasenotes.css in Resources */ = {isa = PBXBuildFile; fileRef = D8342FC910C96168009A00F8 /* releasenotes.css */; };
 		D84452551078E8AB001FE89D /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84452541078E8AB001FE89D /* Sparkle.framework */; };
-		D84452661078E8D4001FE89D /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D84452541078E8AB001FE89D /* Sparkle.framework */; };
+		D84452661078E8D4001FE89D /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D84452541078E8AB001FE89D /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D8445286107911D5001FE89D /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = D8445285107911D5001FE89D /* dsa_pub.pem */; };
 		D84939A60F474CCF00BED889 /* BMBAppearancePrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84939A50F474CCF00BED889 /* BMBAppearancePrefsController.m */; };
 		D8493A100F47896E00BED889 /* BOINCPlatforms.m in Sources */ = {isa = PBXBuildFile; fileRef = D8493A0F0F47896E00BED889 /* BOINCPlatforms.m */; };
@@ -69,7 +69,7 @@
 		D84E282D0DA7DE53002E7734 /* BB_XMLNodeXPathCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E28290DA7DE53002E7734 /* BB_XMLNodeXPathCategory.m */; };
 		D85DE48B0E8A064D009B5F43 /* BOINCNetProxySettings.m in Sources */ = {isa = PBXBuildFile; fileRef = D85DE48A0E8A064D009B5F43 /* BOINCNetProxySettings.m */; };
 		D85F69930FE58D2700D49E88 /* FeedbackReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F69920FE58D2700D49E88 /* FeedbackReporter.framework */; };
-		D85F69990FE58D2B00D49E88 /* FeedbackReporter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85F69920FE58D2700D49E88 /* FeedbackReporter.framework */; };
+		D85F69990FE58D2B00D49E88 /* FeedbackReporter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85F69920FE58D2700D49E88 /* FeedbackReporter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D85F9A610FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D85F9A600FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.m */; };
 		D85F9A890FACFD9D00BBD8B2 /* BOINCSyncWithAccountManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85F9A880FACFD9D00BBD8B2 /* BOINCSyncWithAccountManager.xib */; };
 		D85F9A8E0FAD08B100BBD8B2 /* AccountManagerNotes.html in Resources */ = {isa = PBXBuildFile; fileRef = D85F9A8C0FAD08B100BBD8B2 /* AccountManagerNotes.html */; };
@@ -89,7 +89,7 @@
 		D877B0F40DB9A12900FFE1B5 /* BOINCClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D877B0F30DB9A12900FFE1B5 /* BOINCClientManager.m */; };
 		D87A86140F0DDC040075E392 /* BMBEditHostInformationSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A86130F0DDC040075E392 /* BMBEditHostInformationSheet.m */; };
 		D87B70DD0F1D5D0C00DDE1CA /* BOINCPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D87B70DC0F1D5D0C00DDE1CA /* BOINCPlatform.m */; };
-		D87C09D20FD34E04005E1E40 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D87C09C90FD34DEC005E1E40 /* Growl.framework */; };
+		D87C09D20FD34E04005E1E40 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D87C09C90FD34DEC005E1E40 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D87DAF960F2BE54E00B00C45 /* BOINCDailyTimeLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = D87DAF950F2BE54E00B00C45 /* BOINCDailyTimeLimits.m */; };
 		D87DB28F0F2D09DA00B00C45 /* BOINCClientVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = D87DB28E0F2D09DA00B00C45 /* BOINCClientVersion.m */; };
 		D87FD34C0DAFE1F500F81460 /* BMBPreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87FD34B0DAFE1F500F81460 /* BMBPreferenceWindowController.m */; };
@@ -192,7 +192,6 @@
 		D80187250F2418FB00C8B5C2 /* BOINCLogInWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCLogInWindowController.h; sourceTree = "<group>"; };
 		D8052A9C0EBEE6D90093447B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
 		D812AABF0DC70AF0002F4A3B /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D815540F1094DDF500698637 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBSoftwareUpdates.xib; sourceTree = SOURCE_ROOT; };
 		D81554131094DE2C00698637 /* BMBSoftwareUpdatesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBSoftwareUpdatesController.h; path = "Preference Panel/BMBSoftwareUpdatesController.h"; sourceTree = "<group>"; };
 		D81554141094DE2C00698637 /* BMBSoftwareUpdatesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBSoftwareUpdatesController.m; path = "Preference Panel/BMBSoftwareUpdatesController.m"; sourceTree = "<group>"; };
 		D81BB6710F4F775400FFE030 /* BOINCActiveClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCActiveClientManager.h; sourceTree = "<group>"; };
@@ -203,7 +202,6 @@
 		D81E096D0FC09239007F77FD /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Growl Registration Ticket.growlRegDict"; path = "Resources/Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
 		D81E0C4B0FC9BC3A007F77FD /* BOINCCreditMilestone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCCreditMilestone.h; sourceTree = "<group>"; };
 		D81E0C4C0FC9BC3A007F77FD /* BOINCCreditMilestone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCCreditMilestone.m; sourceTree = "<group>"; };
-		D81EA9FB0EA3451A0041AA58 /* BOINCAttatchToProjectSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BOINCAttatchToProjectSheet.xib; path = ../../Resources/English.lproj/BOINCAttatchToProjectSheet.xib; sourceTree = "<group>"; };
 		D81F15FD0F429450006C7A55 /* BBXMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBXMLReader.m; path = BBXMLReader/BBXMLReader.m; sourceTree = "<group>"; };
 		D81F15FE0F429450006C7A55 /* BBXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBXMLReader.h; path = BBXMLReader/BBXMLReader.h; sourceTree = "<group>"; };
 		D81F15FF0F429450006C7A55 /* BBXMLParsingDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBXMLParsingDescription.m; path = BBXMLReader/BBXMLParsingDescription.m; sourceTree = "<group>"; };
@@ -227,10 +225,8 @@
 		D8342FC910C96168009A00F8 /* releasenotes.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = releasenotes.css; sourceTree = "<group>"; };
 		D84452541078E8AB001FE89D /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../Sparkle.framework; sourceTree = SOURCE_ROOT; };
 		D8445285107911D5001FE89D /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Resources/dsa_pub.pem; sourceTree = "<group>"; };
-		D84856710E99ECC40011A4A1 /* BOINCProjectsPreferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BOINCProjectsPreferences.xib; path = ../../Resources/English.lproj/BOINCProjectsPreferences.xib; sourceTree = "<group>"; };
 		D84939A40F474CCF00BED889 /* BMBAppearancePrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBAppearancePrefsController.h; path = "Preference Panel/BMBAppearancePrefsController.h"; sourceTree = "<group>"; };
 		D84939A50F474CCF00BED889 /* BMBAppearancePrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBAppearancePrefsController.m; path = "Preference Panel/BMBAppearancePrefsController.m"; sourceTree = "<group>"; };
-		D84939A90F474D0C00BED889 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBAppearancePreferences.xib; sourceTree = SOURCE_ROOT; };
 		D8493A0E0F47896E00BED889 /* BOINCPlatforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCPlatforms.h; path = "BOINC Model/BOINCPlatforms.h"; sourceTree = "<group>"; };
 		D8493A0F0F47896E00BED889 /* BOINCPlatforms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCPlatforms.m; path = "BOINC Model/BOINCPlatforms.m"; sourceTree = "<group>"; };
 		D84DB6AE0E7508CE009A8998 /* BOINCIconActive.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = BOINCIconActive.tif; path = Resources/BOINCIconActive.tif; sourceTree = "<group>"; };
@@ -259,7 +255,6 @@
 		D85F69920FE58D2700D49E88 /* FeedbackReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FeedbackReporter.framework; path = ../FeedbackReporter/FeedbackReporter.framework; sourceTree = SOURCE_ROOT; };
 		D85F9A5F0FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCSyncWithAccountManager.h; path = "Preference Panel/BOINCSyncWithAccountManager.h"; sourceTree = "<group>"; };
 		D85F9A600FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCSyncWithAccountManager.m; path = "Preference Panel/BOINCSyncWithAccountManager.m"; sourceTree = "<group>"; };
-		D85F9A700FACEE8A00BBD8B2 /* BOINCSyncWithAccountManager.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BOINCSyncWithAccountManager.xib; path = ../../Resources/English.lproj/BOINCSyncWithAccountManager.xib; sourceTree = "<group>"; };
 		D85F9A8D0FAD08B100BBD8B2 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = English; path = English.lproj/AccountManagerNotes.html; sourceTree = "<group>"; };
 		D85F9ED40FB7AE8800BBD8B2 /* BOINCNetStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCNetStatistics.h; path = "BOINC Model/BOINCNetStatistics.h"; sourceTree = "<group>"; };
 		D85F9ED50FB7AE8800BBD8B2 /* BOINCNetStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCNetStatistics.m; path = "BOINC Model/BOINCNetStatistics.m"; sourceTree = "<group>"; };
@@ -283,21 +278,10 @@
 		D86584720DB300BA00C6B03A /* BMBAdvancedPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBAdvancedPrefsController.h; path = "Preference Panel/BMBAdvancedPrefsController.h"; sourceTree = "<group>"; };
 		D86584730DB300BA00C6B03A /* BMBAdvancedPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBAdvancedPrefsController.m; path = "Preference Panel/BMBAdvancedPrefsController.m"; sourceTree = "<group>"; };
 		D86818D6107056FE00066344 /* readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.markdown; path = BBXMLReader/readme.markdown; sourceTree = "<group>"; };
-		D86A34BB0F312BAB00D78299 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BOINCPreferences.xib; sourceTree = "<group>"; };
-		D86A37420F32F4D900D78299 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BOINCNetworkPreferences.xib; sourceTree = "<group>"; };
-		D870A2060E980344002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
-		D870A20E0E9805B0002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/AboutWindow.xib; sourceTree = SOURCE_ROOT; };
-		D870A21D0E981121002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBStatusMenu.xib; sourceTree = SOURCE_ROOT; };
-		D870A25C0E9818C6002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBProjectMenu.xib; sourceTree = SOURCE_ROOT; };
-		D870A2830E981E03002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBGeneralPreferences.xib; sourceTree = SOURCE_ROOT; };
-		D870A2890E981F29002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBAdvancedPreferences.xib; sourceTree = SOURCE_ROOT; };
-		D870A2920E981FE6002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBPreferences.xib; sourceTree = SOURCE_ROOT; };
 		D877B0F20DB9A12900FFE1B5 /* BOINCClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCClientManager.h; sourceTree = "<group>"; };
 		D877B0F30DB9A12900FFE1B5 /* BOINCClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCClientManager.m; sourceTree = "<group>"; };
 		D87A86120F0DDC040075E392 /* BMBEditHostInformationSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBEditHostInformationSheet.h; path = "Preference Panel/BMBEditHostInformationSheet.h"; sourceTree = "<group>"; };
 		D87A86130F0DDC040075E392 /* BMBEditHostInformationSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBEditHostInformationSheet.m; path = "Preference Panel/BMBEditHostInformationSheet.m"; sourceTree = "<group>"; };
-		D87A86170F0DDC970075E392 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBHostsPreferences.xib; sourceTree = SOURCE_ROOT; };
-		D87A86180F0DDC970075E392 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBEditHostInformationSheet.xib; sourceTree = SOURCE_ROOT; };
 		D87B70DB0F1D5D0C00DDE1CA /* BOINCPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCPlatform.h; path = "BOINC Model/BOINCPlatform.h"; sourceTree = "<group>"; };
 		D87B70DC0F1D5D0C00DDE1CA /* BOINCPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCPlatform.m; path = "BOINC Model/BOINCPlatform.m"; sourceTree = "<group>"; };
 		D87B726C0F1EC89700DDE1CA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = Resources/English.lproj/credits.rtf; sourceTree = "<group>"; };
@@ -316,7 +300,6 @@
 		D89322000DD0458A00230C6E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D893D9C710010F720054034A /* BOINCHostSelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCHostSelectionController.h; path = "Preference Panel/BOINCHostSelectionController.h"; sourceTree = "<group>"; };
 		D893D9C810010F720054034A /* BOINCHostSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCHostSelectionController.m; path = "Preference Panel/BOINCHostSelectionController.m"; sourceTree = "<group>"; };
-		D893DA2A10011E9D0054034A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BOINCHostSelectionView.xib; sourceTree = SOURCE_ROOT; };
 		D893DA3F100132A00054034A /* BMBClientSortDescriptors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBClientSortDescriptors.h; path = App/BMBClientSortDescriptors.h; sourceTree = "<group>"; };
 		D893DA40100132A00054034A /* BMBClientSortDescriptors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBClientSortDescriptors.m; path = App/BMBClientSortDescriptors.m; sourceTree = "<group>"; };
 		D893DDCE10093B7A0054034A /* BOINCProjectStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCProjectStatistics.h; path = "BOINC Model/BOINCProjectStatistics.h"; sourceTree = "<group>"; };
@@ -333,7 +316,6 @@
 		D8A245230E615D95005111B7 /* Updates.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Updates.tiff; path = Resources/Updates.tiff; sourceTree = "<group>"; };
 		D8A81EED0FA4D6080043E41A /* BOINCAttachToAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCAttachToAccountManager.h; path = "Preference Panel/BOINCAttachToAccountManager.h"; sourceTree = "<group>"; };
 		D8A81EEE0FA4D6080043E41A /* BOINCAttachToAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCAttachToAccountManager.m; path = "Preference Panel/BOINCAttachToAccountManager.m"; sourceTree = "<group>"; };
-		D8A81EFC0FA4FBAE0043E41A /* BOINCAttachToAccountManager.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BOINCAttachToAccountManager.xib; path = ../../Resources/English.lproj/BOINCAttachToAccountManager.xib; sourceTree = "<group>"; };
 		D8A890890E46AA4600C15EFD /* BMBNumberBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBNumberBadge.m; path = "Status Menu/BMBNumberBadge.m"; sourceTree = "<group>"; };
 		D8A8908A0E46AA4600C15EFD /* BMBNumberBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBNumberBadge.h; path = "Status Menu/BMBNumberBadge.h"; sourceTree = "<group>"; };
 		D8AE0ACA0F366C3300F22C62 /* BOINCHostInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCHostInfo.h; path = "BOINC Model/BOINCHostInfo.h"; sourceTree = "<group>"; };
@@ -346,7 +328,6 @@
 		D8B5C7670F523DB4002606F1 /* BMBAttributeInfoStringCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBAttributeInfoStringCell.m; path = "Status Menu/BMBAttributeInfoStringCell.m"; sourceTree = "<group>"; };
 		D8BC56260E21CE5900C0052B /* BOINCProjectSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCProjectSummary.h; path = "BOINC Model/BOINCProjectSummary.h"; sourceTree = "<group>"; };
 		D8BC56270E21CE5900C0052B /* BOINCProjectSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCProjectSummary.m; path = "BOINC Model/BOINCProjectSummary.m"; sourceTree = "<group>"; };
-		D8C2C3770F18689E00ABE93A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = ../../Resources/English.lproj/BOINCLoginWindow.xib; sourceTree = "<group>"; };
 		D8C52F690FCA1F0A000589C4 /* BMBGrowlNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBGrowlNotifier.h; path = App/BMBGrowlNotifier.h; sourceTree = "<group>"; };
 		D8C52F6A0FCA1F0A000589C4 /* BMBGrowlNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBGrowlNotifier.m; path = App/BMBGrowlNotifier.m; sourceTree = "<group>"; };
 		D8C592770EAAFA3300272938 /* BOINCAttachToProjectSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCAttachToProjectSheet.h; path = "Preference Panel/BOINCAttachToProjectSheet.h"; sourceTree = "<group>"; };
@@ -374,6 +355,25 @@
 		D8FF92600F6C380600C220A3 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = ../AsyncSocket/AsyncSocket.h; sourceTree = SOURCE_ROOT; };
 		D8FF95790F6D976D00C220A3 /* BOINCRPCStatusReply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCRPCStatusReply.h; path = "BOINC Model/BOINCRPCStatusReply.h"; sourceTree = "<group>"; };
 		D8FF957A0F6D976D00C220A3 /* BOINCRPCStatusReply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCRPCStatusReply.m; path = "BOINC Model/BOINCRPCStatusReply.m"; sourceTree = "<group>"; };
+		DA80857C2450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../Resources/Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DA80857D2450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../Resources/Base.lproj/AboutWindow.xib; sourceTree = "<group>"; };
+		DA80857E2450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BMBStatusMenu.xib; sourceTree = "<group>"; };
+		DA80857F2450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BMBProjectMenu.xib; sourceTree = "<group>"; };
+		DA8085802450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BMBPreferences.xib; sourceTree = "<group>"; };
+		DA8085812450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BMBGeneralPreferences.xib; sourceTree = "<group>"; };
+		DA8085822450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BMBAppearancePreferences.xib; sourceTree = "<group>"; };
+		DA8085832450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BMBSoftwareUpdates.xib; sourceTree = "<group>"; };
+		DA8085842450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BMBAdvancedPreferences.xib; sourceTree = "<group>"; };
+		DA8085852450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BMBHostsPreferences.xib; sourceTree = "<group>"; };
+		DA8085862450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BMBEditHostInformationSheet.xib; sourceTree = "<group>"; };
+		DA8085872450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Resources/Base.lproj/BOINCPreferences.xib; sourceTree = "<group>"; };
+		DA8085882450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Resources/Base.lproj/BOINCNetworkPreferences.xib; sourceTree = "<group>"; };
+		DA8085892450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BOINCProjectsPreferences.xib; sourceTree = "<group>"; };
+		DA80858A2450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BOINCAttatchToProjectSheet.xib; sourceTree = "<group>"; };
+		DA80858B2450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BOINCAttachToAccountManager.xib; sourceTree = "<group>"; };
+		DA80858C2450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BOINCSyncWithAccountManager.xib; sourceTree = "<group>"; };
+		DA80858D2450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BOINCHostSelectionView.xib; sourceTree = "<group>"; };
+		DA80858E2450FEDB0092ED6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../Resources/Base.lproj/BOINCLoginWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -769,7 +769,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BOINCMenubar" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -780,6 +780,7 @@
 				Japanese,
 				French,
 				German,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* BOINCMenubar test 2 */;
 			projectDirPath = "";
@@ -962,7 +963,7 @@
 		D81554111094DDFE00698637 /* BMBSoftwareUpdates.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D815540F1094DDF500698637 /* English */,
+				DA8085832450FEDB0092ED6C /* Base */,
 			);
 			name = BMBSoftwareUpdates.xib;
 			sourceTree = "<group>";
@@ -970,7 +971,7 @@
 		D85F9A880FACFD9D00BBD8B2 /* BOINCSyncWithAccountManager.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D85F9A700FACEE8A00BBD8B2 /* BOINCSyncWithAccountManager.xib */,
+				DA80858C2450FEDB0092ED6C /* Base */,
 			);
 			name = BOINCSyncWithAccountManager.xib;
 			sourceTree = "<group>";
@@ -986,7 +987,7 @@
 		D86A34BE0F312BB600D78299 /* BOINCPreferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D86A34BB0F312BAB00D78299 /* English */,
+				DA8085872450FEDB0092ED6C /* Base */,
 			);
 			name = BOINCPreferences.xib;
 			path = ../..;
@@ -995,7 +996,7 @@
 		D86A37440F32F4E500D78299 /* BOINCNetworkPreferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D86A37420F32F4D900D78299 /* English */,
+				DA8085882450FEDB0092ED6C /* Base */,
 			);
 			name = BOINCNetworkPreferences.xib;
 			path = ../..;
@@ -1012,7 +1013,7 @@
 		D893DA2C10011EA40054034A /* BOINCHostSelectionView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D893DA2A10011E9D0054034A /* English */,
+				DA80858D2450FEDB0092ED6C /* Base */,
 			);
 			name = BOINCHostSelectionView.xib;
 			sourceTree = "<group>";
@@ -1052,7 +1053,7 @@
 		D8A821A70FA929240043E41A /* BMBEditHostInformationSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D87A86180F0DDC970075E392 /* English */,
+				DA8085862450FEDB0092ED6C /* Base */,
 			);
 			name = BMBEditHostInformationSheet.xib;
 			sourceTree = "<group>";
@@ -1060,7 +1061,7 @@
 		D8A821A90FA9293F0043E41A /* BMBHostsPreferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D87A86170F0DDC970075E392 /* English */,
+				DA8085852450FEDB0092ED6C /* Base */,
 			);
 			name = BMBHostsPreferences.xib;
 			sourceTree = "<group>";
@@ -1068,7 +1069,7 @@
 		D8A821AB0FA929490043E41A /* BMBAdvancedPreferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D870A2890E981F29002CE95D /* English */,
+				DA8085842450FEDB0092ED6C /* Base */,
 			);
 			name = BMBAdvancedPreferences.xib;
 			sourceTree = "<group>";
@@ -1076,7 +1077,7 @@
 		D8A821AD0FA929570043E41A /* BMBAppearancePreferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D84939A90F474D0C00BED889 /* English */,
+				DA8085822450FEDB0092ED6C /* Base */,
 			);
 			name = BMBAppearancePreferences.xib;
 			sourceTree = "<group>";
@@ -1084,7 +1085,7 @@
 		D8A821AF0FA9295F0043E41A /* BMBGeneralPreferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D870A2830E981E03002CE95D /* English */,
+				DA8085812450FEDB0092ED6C /* Base */,
 			);
 			name = BMBGeneralPreferences.xib;
 			sourceTree = "<group>";
@@ -1092,7 +1093,7 @@
 		D8A821B10FA929670043E41A /* BMBPreferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D870A2920E981FE6002CE95D /* English */,
+				DA8085802450FEDB0092ED6C /* Base */,
 			);
 			name = BMBPreferences.xib;
 			sourceTree = "<group>";
@@ -1100,7 +1101,7 @@
 		D8A821B30FA929720043E41A /* BMBProjectMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D870A25C0E9818C6002CE95D /* English */,
+				DA80857F2450FEDB0092ED6C /* Base */,
 			);
 			name = BMBProjectMenu.xib;
 			sourceTree = "<group>";
@@ -1108,7 +1109,7 @@
 		D8A821B50FA9297C0043E41A /* BMBStatusMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D870A21D0E981121002CE95D /* English */,
+				DA80857E2450FEDB0092ED6C /* Base */,
 			);
 			name = BMBStatusMenu.xib;
 			sourceTree = "<group>";
@@ -1116,7 +1117,7 @@
 		D8A821B70FA929850043E41A /* AboutWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D870A20E0E9805B0002CE95D /* English */,
+				DA80857D2450FEDB0092ED6C /* Base */,
 			);
 			name = AboutWindow.xib;
 			sourceTree = "<group>";
@@ -1124,7 +1125,7 @@
 		D8A821B90FA9298D0043E41A /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D870A2060E980344002CE95D /* English */,
+				DA80857C2450FEDB0092ED6C /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -1132,7 +1133,7 @@
 		D8A821BB0FA9299A0043E41A /* BOINCProjectsPreferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D84856710E99ECC40011A4A1 /* BOINCProjectsPreferences.xib */,
+				DA8085892450FEDB0092ED6C /* Base */,
 			);
 			name = BOINCProjectsPreferences.xib;
 			sourceTree = "<group>";
@@ -1140,7 +1141,7 @@
 		D8A821BD0FA929A40043E41A /* BOINCAttatchToProjectSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D81EA9FB0EA3451A0041AA58 /* BOINCAttatchToProjectSheet.xib */,
+				DA80858A2450FEDB0092ED6C /* Base */,
 			);
 			name = BOINCAttatchToProjectSheet.xib;
 			sourceTree = "<group>";
@@ -1148,7 +1149,7 @@
 		D8A821BF0FA929AD0043E41A /* BOINCAttachToAccountManager.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D8A81EFC0FA4FBAE0043E41A /* BOINCAttachToAccountManager.xib */,
+				DA80858B2450FEDB0092ED6C /* Base */,
 			);
 			name = BOINCAttachToAccountManager.xib;
 			sourceTree = "<group>";
@@ -1156,7 +1157,7 @@
 		D8A821C10FA929B80043E41A /* BOINCLoginWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D8C2C3770F18689E00ABE93A /* English */,
+				DA80858E2450FEDB0092ED6C /* Base */,
 			);
 			name = BOINCLoginWindow.xib;
 			sourceTree = "<group>";
@@ -1192,6 +1193,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -1218,6 +1220,8 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrotherBard.BOINCMenubar2;
 				PRODUCT_NAME = "BOINCMenubar 2";
 				WARNING_CFLAGS = (
 					"-Wall",
@@ -1234,6 +1238,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -1252,6 +1257,8 @@
 				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrotherBard.BOINCMenubar2;
 				PRODUCT_NAME = "BOINCMenubar 2";
 				STRIP_STYLE = all;
 			};
@@ -1261,15 +1268,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DEBUGGING_SYMBOLS = default;
 				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_ENABLE_PASCAL_STRINGS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1304,7 +1312,7 @@
 				GENERATE_PROFILING_CODE = YES;
 				IBC_FLATTEN_NIBS = NO;
 				IBC_NOTICES = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
@@ -1325,6 +1333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1362,6 +1371,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				IBC_FLATTEN_NIBS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				SDKROOT = macosx;
@@ -1375,6 +1385,7 @@
 		D844529110791422001FE89D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 			};
 			name = Debug;
@@ -1382,6 +1393,7 @@
 		D844529210791422001FE89D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 			};
 			name = Release;
