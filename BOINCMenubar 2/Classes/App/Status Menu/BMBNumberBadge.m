@@ -63,12 +63,12 @@ NSString * const kTextBadgeColorKey    = @"Text Badge Color";
     if (self != [BMBNumberBadge class])
         return;
     
-    NSData *rightBadgeColorData = [NSArchiver archivedDataWithRootObject:[NSColor headerColor]];
-    NSData *leftBadgeColorData  = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedHue:0.3694f 
+    NSData *rightBadgeColorData = [NSKeyedArchiver archivedDataWithRootObject:[NSColor headerColor]];
+    NSData *leftBadgeColorData  = [NSKeyedArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedHue:0.3694f 
                                                                                               saturation:0.75f 
                                                                                               brightness:0.75f 
                                                                                                    alpha:1.0f]];
-    NSData *textBadgeColorData  = [NSArchiver archivedDataWithRootObject:[NSColor whiteColor]];
+    NSData *textBadgeColorData  = [NSKeyedArchiver archivedDataWithRootObject:[NSColor whiteColor]];
     
     NSDictionary *defaults = [NSDictionary dictionaryWithObjectsAndKeys:
                               rightBadgeColorData, kDefaultBadgeColorKey,
