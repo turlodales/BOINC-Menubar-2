@@ -11,5 +11,20 @@ To learn more about BOINC:
 * [Unofficial BOINC Wiki](http://www.boinc-wiki.info/ "Unofficial BOINC Wiki")
 
 
+| name| MacOS Versions | Status | 
+|---------|----------|----------|
+| BOINCMenubar 2 | 10.14 | Working | 
+| BOINCMenubar 2 | 10.15 | Not Working | 
+
+
+- [x] finish Bug Fixes on 10.4 Support
+- [ ] added support MacOS 10.15 and above
+
+
+got it working but only on my MackBook Pro 2011 
+
+As from the MacBook Pro 2012 and later apple move away from OpenGL to Metal and Metal 2 
+
+
 Credit's
 i would like to thank the real creataor of this addon brotherbard for making this and for boneskull for is updates to this that i have added to this im not here to take credit for other peoples work this is why i have made this add to the readme file
